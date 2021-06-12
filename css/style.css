@@ -29,18 +29,15 @@ html,body{
     padding: 0 1.5rem 0 1rem ;
     
 }
-
 .header_area .main-menu .navbar{
     padding: 1rem 10rem ;
 }
-
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 700 15px/2px var(--roboto) ;
+    font: normal 700 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
 }
-
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
@@ -48,7 +45,6 @@ html,body{
     background-clip: text;
 
 }
-
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
@@ -56,7 +52,6 @@ html,body{
     background-clip: text;
 
 }
-
 /*  ===============================================  */
 
 .site-main .site-banner .site-title h3{
@@ -66,13 +61,11 @@ html,body{
 
 .site-main .site-banner .site-title h1{
     font-size: 4.8rem;
-
 }
 
 .site-main .site-banner .site-title h4 span{
     font: var(--roboto);
     font-size: 2rem;
-
 }
 
 .site-main .site-banner .site-title h3::after{
@@ -83,6 +76,7 @@ html,body{
     display: inline-block;
     margin-left: 2%;
 }
+
 .site-main .site-banner .site-image > img{
     padding: 6rem 0;
     width: 90%;
@@ -94,8 +88,7 @@ html,body{
 }
 .title-text-2{
     font: normal 35px/60px var(--roboto);
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 .button{
     padding: .8rem 2.2rem;
@@ -192,13 +185,11 @@ a:hover {
     margin: 0 5px 0 0;
     float: left;
 }
-
 .main-time:after{
     content: '';
     display: block;
     clear: both;
 }
-
 .time-content{
     color: black;
     text-align: center;
@@ -209,11 +200,9 @@ a:hover {
     display: block;
     position: relative;
 }
-
 .time-content:hover{
     text-decoration: none;
 }
-
 .time-icon{
     color: black;
     font-size: 28px;
@@ -223,7 +212,6 @@ a:hover {
     top: -51px;
     z-index: 1;
 }
-
 .time-yr{
     color: var(--primary-color2);
     font-size: 30px;
@@ -234,14 +222,12 @@ a:hover {
     right: -80px;
     top: 50%;
 }
-
 .main-time .title-time{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
     margin: 0 0 5px;
 }
-
 .main-time .desc-time{
     font-size: 13px;
     line-height: 22px;
@@ -249,35 +235,27 @@ a:hover {
     color: var(--text-color);
     font: normal 500 var(--roboto);
 }
-
 .main-time .time:nth-child(even){
     float: right;
     padding: 42px 0 0 18px;
     margin: 0 0 0 5px;
-
 }
-
 .main-time .time:nth-child(even) .time-yr{
     right: auto;
     left: -61px;
     transform: translateY(-50%) rotate(-90deg);
-
 }
-
 .main-time .time:nth-child(even) .time-icon{
     left: auto;
     right: 20px;
 }
-
 .site-main >.site-experience .time-content{ 
     background: white;
     transition: box-shadow .7s ease;
 }
-
 .site-main >.site-experience .time-content:hover{ 
     box-shadow: 9px 15px blue;
 }
-
 .site-main .site-skill{
     padding: 16rem 5rem;
 }
@@ -287,12 +265,10 @@ a:hover {
     font: normal 500 49px/60px var(--roboto);
     padding-top: 1.5rem;
 }
-
 .site-skill .row{
     margin-top: 5%;
     padding: 5rem;
 }
-
  /*---------BARS---------*/
  .skills{
     width: 100%;
@@ -306,13 +282,11 @@ a:hover {
     margin: 15px 0;
     text-align: left;
   }
-  
 .skill-bar{
     height: 20px;
     background: #cacaca;
     border-radius: 6px;
   }
-  
 .skill-per{
     height: 20px;
     background-color: var(--primary-color2);
@@ -320,8 +294,7 @@ a:hover {
     width: 0;
     transition: 2s linear;
     position: relative;
-  }
-  
+  } 
 .skill-per::before{
     content: attr(perc);
     position: absolute;
@@ -334,7 +307,6 @@ a:hover {
     right: 0;
     transform: translateX(35%);
   }
-  
 .skill-per::after{
     content: '';
     position: absolute;
@@ -346,8 +318,6 @@ a:hover {
     transform: translateX(50%) rotate(45deg);
     border-radius: 1px;
   }
-
-
 .skill-image-i{
     display: inline;
     width: 100%;
@@ -355,7 +325,6 @@ a:hover {
     border-radius: 120px 20px 120px 20px;
     
   }
-
 .overlay{
     position: absolute;
     bottom: 0;
@@ -368,12 +337,10 @@ a:hover {
     transition: .5s ease;
     opacity:0.8;
     border-radius: 120px 20px 120px 20px;
-  }
-  
+  } 
 .skill-image:hover .overlay{
     height: 100%;
-  }
-  
+  } 
 .text {
     color: white;
     font-size: 25px;
@@ -390,8 +357,7 @@ a:hover {
     padding: 0 5.5rem;
 }
 
-.site-contact .row
-{
+.site-contact .row{
     margin-top: 7%;
 }
 .contact-form{
@@ -402,7 +368,6 @@ a:hover {
     overflow: hidden;
 
 }
-
 .contact-form-text{
     display: block;
     width: 100%;
@@ -415,16 +380,13 @@ a:hover {
     transition: 0.5s;
     border-radius: 10px;
 }
-
 .contact-form-text:focus{
     box-shadow:  0 0 10px 4px var(--primary-color2);
 }
-
 textarea.contact-form-text{
     resize: none;
     height: 120px;
 }
-
 .contact-form-btn{
  border: 0;
  background: whitesmoke;
@@ -432,14 +394,12 @@ textarea.contact-form-text{
  border-radius: 20px;
  cursor: pointer;
  transition: 0.7s;
-
 }
 .contact-form-btn:hover{
     background: var(--primary-color2);
     background-clip: padding-box;
     color:whitesmoke;
 }
-
 .contact-form-btn::after{
     position: absolute ;
     top: -2px;left: -2px;
@@ -449,7 +409,6 @@ textarea.contact-form-text{
     z-index: -1;
     border-radius: 4px;
 }
-
 .txt-contact h2{
     margin-top: 10%;
 }
@@ -461,17 +420,14 @@ footer{
     background: #111;
     padding: 1em 0 ;
 }
-
 footer.footer-area .social a > i{
     font-size: 30px;
     padding: 1rem;
     color: white;
 }
-
 footer.footer-area .social a:hover > i{
     color: var(--primary-color2);
 }
-
 p.parafot{
     color: var(--text-color);
     font: normal 500 16px/25px var(--roboto)
