@@ -17,5 +17,5 @@ html,body{
     --box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
     --box-shadow2: 0px 10px 30px rgba(0,209,188, 0.8);
 
-    --roboto:'Roboto',arial;
+    --roboto:'Roboto', sans-serif;
 }
