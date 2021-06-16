@@ -60,11 +60,13 @@ html,body{
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 4.8rem;
+    font: var(--roboto);
+    font-weight: 700;
+    font-size: 3.8rem;
 }
 
 .site-main .site-banner .site-title h4 span{
-    font: var(--roboto);
+    font:normal 500 var(--roboto);
     font-size: 2rem;
 }
 
