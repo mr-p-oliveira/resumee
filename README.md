@@ -27,7 +27,7 @@ So I chose to step out of my comfort zone and learn new technologies while doing
 ![](https://github.com/mr-p-oliveira/resumee/blob/main/preview/preview_g.gif?raw=true)
 
 # Tech Stack 🛠️
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap 
 - **JS plugin:** TypeIt
 
 # Inspired by
