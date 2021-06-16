@@ -10,6 +10,7 @@ So I chose to step out of my comfort zone and learn new technologies while doing
 
 - [Content](#Content)
 - [Preview](#Preview)
+- [Tech Stack](#Tech-Stack)
 - [Inspired by](#Inspired-by)
 
 
