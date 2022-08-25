@@ -3,7 +3,7 @@
 <h3 align="center"> This is my resume but also my first website! </h3>
 <p align="center">
 Nowadays a good resume is a powerful tool, so why not turn it into an interactive experience? </br>
-So I chose to step out of my comfort zone and learn new technologies while doing it.
+So I have chosen to step out of my comfort zone and learn new technologies while doing it.
 </p>
 
 ## Table of contents
